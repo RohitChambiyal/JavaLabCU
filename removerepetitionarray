@@ -1,0 +1,13 @@
+import java.util.*;
+public class removerepetitionarray
+{
+	public static void main(String[] args) {
+    int arr[] = {5,1,1,23,54,33,22,-11,32};
+    Set<Integer> s1 = new HashSet<>();
+    for(int i=0;i<arr.length;i++){
+        s1.add(arr[i]);
+    }
+    System.out.println(s1);
+
+}
+}
